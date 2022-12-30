@@ -1,4 +1,4 @@
-# ETL DATA PROCESSOR PROJECT
+# HOLIDAY ETL DATA PROCESSOR PROJECT
 
 ## Goal: Creating a segment of ETL pipeline that ingests and processes raw data extracted from an API, transforms that data, and then inserts it into a SQLite database.
 
