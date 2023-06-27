@@ -27,7 +27,7 @@ from urllib.request import urlopen
 
 
 ```python
-url = "https://holidays.abstractapi.com/v1/?api_key=574b7d06a79c4794a2e390123a19b857&country=US&year=2020"
+url = "https://holidays.abstractapi.com/v1/?api_key=###&country=US&year=2020"
 ```
 
 ### Store the response of URL
