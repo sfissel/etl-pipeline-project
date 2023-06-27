@@ -48,7 +48,7 @@ data_json = json.loads(response.read())
 
 
 ```python
-api_url = requests.get('https://holidays.abstractapi.com/v1/?api_key=574b7d06a79c4794a2e390123a19b857&country=US&year=2020')
+api_url = requests.get('https://holidays.abstractapi.com/v1/?api_key=###&country=US&year=2020')
 data_json = api_url.json()
 
 connection = sqlite3.connect('holiday.sqlite')
@@ -509,7 +509,7 @@ except FileNotFoundError:
 
 
 ```python
-data = pd.read_json('https://holidays.abstractapi.com/v1/?api_key=574b7d06a79c4794a2e390123a19b857&country=US&year=2020')
+data = pd.read_json('https://holidays.abstractapi.com/v1/?api_key=###&country=US&year=2020')
 data.to_csv('holiday.csv', index=None)
 ```
 
